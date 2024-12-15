@@ -47,7 +47,7 @@ public class Inflation
             {
                 summ *= 1 + percent[r];
             }
-            Console.WriteLine("Step {0}: {1:F2}", r+1, summ);
+            Console.WriteLine("Step {0}: {1:F2}. Percent: {2:F2}", r+1, summ, percent[r]);
         }
     }
 }
